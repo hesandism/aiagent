@@ -87,7 +87,7 @@ function App() {
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Type your messaAAAAge..."
+              placeholder="Type your message..."
               className="flex-1 rounded-lg border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
               disabled={isLoading}
             />
@@ -103,7 +103,7 @@ function App() {
               type="button"
               onClick= {() => setInput('')}
               disabled={isLoading || !input.trim()}
-              className="bg-green-800 text-blue rounded-lg px-4 py-2 hover:bg-blue-600 disabled:opacity-50 disabled:cursor-pointer flex items-center gap-2"
+              className="bg-green-1000 text-blue rounded-lg px-4 py-2 hover:bg-blue-600 disabled:opacity-50 disabled:cursor-pointer flex items-center gap-2"
             >
               <Briefcase className="w-4 h-4" />
               Clear
